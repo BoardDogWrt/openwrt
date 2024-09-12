@@ -234,7 +234,7 @@ function add_static_host() {
 
 # ---------------------------------------------------------
 
-HOSTNAME="FriendlyWrt"
+HOSTNAME="BoardDogWrt"
 
 if [ "${1}" = "all" ]; then
 	init_network
