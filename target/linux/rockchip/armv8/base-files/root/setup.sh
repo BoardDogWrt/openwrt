@@ -159,9 +159,9 @@ function init_openssh() {
 
 function init_theme() {
 	if [ "$PKG_UPGRADE" != 1 ]; then
-		uci get luci.themes.Bootstrap >/dev/null 2>&1 && \
+		uci get luci.themes.Argon >/dev/null 2>&1 && \
 		uci batch <<-EOF
-			set luci.main.mediaurlbase=/luci-static/bootstrap
+			set luci.main.mediaurlbase=/luci-static/argon
 			commit luci
 		EOF
 	fi

@@ -313,7 +313,7 @@ detect_mac80211() {
 			set wireless.default_${name}.device=${name}
 			set wireless.default_${name}.network=lan
 			set wireless.default_${name}.mode=ap
-			set wireless.default_${name}.ssid=FriendlyWrt-${ssid_suffix}
+			set wireless.default_${name}.ssid=BoardDogWrt-${ssid_suffix}
 			set wireless.default_${name}.encryption=psk2
 			set wireless.default_${name}.key=password
 EOF
