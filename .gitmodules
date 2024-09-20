@@ -1,8 +1,0 @@
-[submodule "package/themes/luci-theme-argon"]
-	path = package/themes/luci-theme-argon
-	url = https://github.com/BoardDogWrt/luci-theme-argon.git
-	branch = boarddogwrt-dev
-[submodule "package/apps/luci-app-argon-config"]
-	path = package/apps/luci-app-argon-config
-	url = https://github.com/BoardDogWrt/luci-app-argon-config.git
-	branch = boarddogwrt-dev
